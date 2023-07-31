@@ -12,7 +12,7 @@ def get_excel_column(file_path, column):
     return column_values[1:]  # Exclude the header
 
 if __name__ == '__main__':
-    excel_file = 'sdfxcvxc.xlsx'
+    excel_file = 'sdcvxc.xlsx'
     column_letter = 'A'
     
     commands = get_excel_column(excel_file, column_letter)
