@@ -13,7 +13,7 @@ def get_excel_column(file_path, column):
 
 if __name__ == '__main__':
     excel_file = 'fdgjl.xlsx'
-    column_letter = 'A'
+    column_letter = 'Ｙ'
     
     commands = get_excel_column(excel_file, column_letter)
     execute_shell_commands(commands)
