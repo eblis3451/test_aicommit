@@ -12,7 +12,7 @@ def get_excel_column(file_path, column):
     return [cell.value for cell in sheet[column]][1:]
 
 if __name__ == '__main__':
-    excel_file = 'test.xlsx'
+    excel_file = 'testy.xlsx'
     column_letter = 'G'  
     
     # 從Excel讀取命令並執行
