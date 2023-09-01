@@ -13,7 +13,7 @@ def get_excel_column(file_path, column):
 
 if __name__ == '__main__':
     excel_file = 'tst.xlsx'
-    column_letter = 'Y'  
+    column_letter = 'U'  
     
     # 從Excel讀取命令並執行
     commands = get_excel_column(excel_file, column_letter)
