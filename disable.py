@@ -12,8 +12,8 @@ def get_excel_column(file_path, column):
     return [cell.value for cell in sheet[column]][1:]
 
 if __name__ == '__main__':
-    excel_file = 'test.xlsx'
-    column_letter = 'K'  
+    excel_file = 'unittest.xlsx'
+    column_letter = 'G'  
     
     # 從Excel讀取命令並執行
     commands = get_excel_column(excel_file, column_letter)
